@@ -1,0 +1,124 @@
+<!-- DEVELOPER: Harusumi Takesada, IS117-001, Fall 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="page-container">
+    <div id="content-wrap">
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-md
+                     justify-content-start
+                     bg-dark navbar-dark
+                     col-12">
+
+                    <a class="navbar-brand" href="index.html">Soccer Joy</a>
+
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Site</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="training.html" id="navbardropTraining"
+                                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Training
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbardropTraining">
+                                    <li><a class="dropdown-item" href="solo.html">Solo Drills</a></li>
+                                    <li><a class="dropdown-item" href="partner.html">Partner Drills</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div> </div> <main class="container">
+        <header class="p-5 mb-4 bg-light rounded-3 text-center hero-section">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Welcome to Soccer joy!</h1>
+                <p class="fs-4">Discover the joy of growth and improve your soccer skills.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Seek Expert Advice</a>
+            </div>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+
+            <div class="col">
+                <div class="card h-100 text-center shadow">
+                    <img src="Images/training.jpg" class="card-img-top" alt="Soccer training scene" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">⚽ Training & Drills</h5>
+                        <p class="card-text">Explore effective solo and partner drills for all skill levels to master your technique.</p>
+                        <a href="training.html" class="btn btn-outline-primary">View Drills</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 text-center shadow">
+                    <img src="Images/about.jpg" class="card-img-top" alt="Website introduction image" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">📖 About This Site</h5>
+                        <p class="card-text">Learn how Soccer Joy supports the growth of young players and their parents.</p>
+                        <a href="about.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 text-center shadow">
+                    <img src="Images/contact.jpg" class="card-img-top" alt="Contact image" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">📞 Personalized Advice</h5>
+                        <p class="card-text">Request individual advice regarding your specific questions or playing style.</p>
+                        <a href="contact.html" class="btn btn-outline-success">Ask Questions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+         </div><footer id="footer" class="footer page-footer font-small ">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-12 text-center">
+                            <span class="text-muted">&copy; Harusumi Takesada, 2025 | Terms Of Use | Privacy Statement</span>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

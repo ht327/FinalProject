@@ -1,0 +1,124 @@
+<!-- DEVELOPER: Harusumi Takesada, IS117-001, Fall 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="page-container">
+    <div id="content-wrap">
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-md
+                     justify-content-start
+                     bg-dark navbar-dark
+                     col-12">
+
+                    <a class="navbar-brand" href="index.html">Soccer Joy</a>
+
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Site</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="training.html" id="navbardropTraining"
+                                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Training
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbardropTraining">
+                                    <li><a class="dropdown-item" href="solo.html">Solo Drills</a></li>
+                                    <li><a class="dropdown-item" href="partner.html">Partner Drills</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div> </div> <main class="container py-4">
+        <h1 class="mb-4">About Soccer Joy Site</h1>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 class="mb-3">Our Mission</h2>
+                <p>
+                    Soccer Joy was created with one simple mission: to make skill development fun, accessible, and effective for young players. We believe that a positive mindset and a deep love for the game are the most important ingredients for long-term success. Our drills and guides are designed to be easily understood and executed by players aged 3 to 15, as well as their parents.
+                </p>
+                <p>
+                    We focus on building a strong technical foundation that allows players to perform confidently in any match situation. We cover everything from basic passing to advanced footwork, always emphasizing the "joy" in learning.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="mb-3">Who We Help</h2>
+                <p>
+                    Our primary audience consists of **parents and young soccer players** who are dedicated to improving outside of team practice. We know that dedicated training time is crucial for accelerating skill development. The content is broken down into simple, manageable steps, allowing parents to easily guide their children through effective practice sessions.
+                </p>
+                <p>
+                    Whether you're looking for simple solo drills for a beginner or advanced partner routines for a competitive player, Soccer Joy has the resources you need to turn practice into passion.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <section class="mb-5 clearfix">
+            <h2 class="mb-3">About the Developer</h2>
+
+            <img src="Images/developer_photo.jpg" alt="Photo of the site developer"
+                 class="img-fluid float-element" style="width: 200px; height: auto;">
+
+            <p>
+                Hello! My name is **Harusumi Takesada**. I am currently a freshman at NJIT, majoring in Business and Information Systems (BIS). I created Soccer Joy to share the passion and fundamental knowledge I've gained over many years of playing the sport.
+            </p>
+            <p>
+                My journey with soccer began when I was six years old in Japan. Since then, soccer has been a core part of my life, teaching me the importance of teamwork, dedication, and precision.
+            </p>
+            <p>
+                This site is dedicated to giving young players the tools they need to experience the joy of improvement.
+            </p>
+        </section>
+
+    </main>
+
+
+    </div><footer id="footer" class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="text-muted">&copy; Harusumi Takesada, 2025 | Terms Of Use | Privacy Statement</span>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
